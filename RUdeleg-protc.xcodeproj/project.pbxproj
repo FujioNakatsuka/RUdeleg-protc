@@ -13,6 +13,7 @@
 		8D4A64372497B77500BD6822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4A64352497B77500BD6822 /* Main.storyboard */; };
 		8D4A64392497B77800BD6822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4A64382497B77800BD6822 /* Assets.xcassets */; };
 		8D4A643C2497B77800BD6822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4A643A2497B77800BD6822 /* LaunchScreen.storyboard */; };
+		8D4A64442497B86B00BD6822 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A64432497B86B00BD6822 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D4A64382497B77800BD6822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4A643B2497B77800BD6822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4A643D2497B77800BD6822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4A64432497B86B00BD6822 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8D4A64312497B77500BD6822 /* SceneDelegate.swift */,
 				8D4A64332497B77500BD6822 /* ViewController.swift */,
 				8D4A64352497B77500BD6822 /* Main.storyboard */,
+				8D4A64432497B86B00BD6822 /* NextViewController.swift */,
 				8D4A64382497B77800BD6822 /* Assets.xcassets */,
 				8D4A643A2497B77800BD6822 /* LaunchScreen.storyboard */,
 				8D4A643D2497B77800BD6822 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4A64342497B77500BD6822 /* ViewController.swift in Sources */,
+				8D4A64442497B86B00BD6822 /* NextViewController.swift in Sources */,
 				8D4A64302497B77500BD6822 /* AppDelegate.swift in Sources */,
 				8D4A64322497B77500BD6822 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nifty.cbm01799.RUdeleg-protc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nifty.cbm01799.RUdeleg-protc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
